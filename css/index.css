@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,10 +54,41 @@ table {
 img {
     max-width: 100%;
     height: auto;
-  }
+}
   
-  *,
-  *::before,
-  *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-  }
+}
+
+body {
+    font-family: Noto Sans, Noto Sans TC, sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1920px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid #F1F1F1;
+    padding: 0 16.25%;
+}
+
+.header .menu {
+    display: flex;
+}
+
+.header .menu a {
+    font-weight: 400;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 40px;
+}
