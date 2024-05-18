@@ -2,6 +2,7 @@
 # 2024 軟體工程師體驗營 - 個人品牌網站
 
 此專案為六角學院 2024 軟體工程師體驗營的個人品牌網站設計稿之成品
+（https://chunweiliang.github.io/mission2/）
 
 ![Required Node version](https://img.shields.io/node/v/create-vue)
 
