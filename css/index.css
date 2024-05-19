@@ -71,6 +71,8 @@ body {
     margin: 0 auto;
 }
 
+/* header */
+
 .header {
     max-width: 1920px;
     height: 96px;
@@ -81,14 +83,43 @@ body {
     padding: 0 16.25%;
 }
 
-.header .menu {
+.menu {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.header .menu a {
+.menu li a {
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000000;
     text-decoration: none;
-    padding-left: 40px;
+    padding: 8px 20px;
+}
+
+.menu li a:hover{
+    font-weight: 600;
+    outline: 1px solid #919191
+}
+
+/* introduction */
+
+.introduction {
+    max-width: 1920px;
+    max-height: 792px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introduction-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 16.25%;
+    margin-right: 30px;
+}
+
+.introduction-1 img {
+    display: flex;
 }
