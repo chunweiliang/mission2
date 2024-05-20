@@ -80,12 +80,13 @@ body {
     align-items: center;
     justify-content: space-between;
     outline: 1px solid #F1F1F1;
-    padding: 0 16.25%;
+    padding-left: 10%;
 }
 
 .menu {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -94,7 +95,8 @@ body {
     line-height: 1.5;
     color: #000000;
     text-decoration: none;
-    padding: 8px 20px;
+    margin: 0 20px;
+    padding: 4px 4px;
 }
 
 .menu li a:hover{
@@ -106,7 +108,6 @@ body {
 
 .introduction {
     max-width: 1920px;
-    max-height: 792px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,11 +116,82 @@ body {
 .introduction-1 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 16.25%;
-    margin-right: 30px;
+    padding-left: 10%;
 }
 
-.introduction-1 img {
+.introduction-1 h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #3B3B3B;
+    padding-bottom: 14px;
+    white-space: nowrap;
+}
+
+.introduction-text1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    color: #5B5B5B;
+    padding: 7px 0;
+}
+
+.introduction-text1 p {
+    padding: 7px 0;
+}
+
+.skill {
+    white-space: nowrap;
+}
+
+.mark-1 {
+    z-index: 5;
+    position: relative;
+    white-space: nowrap;
+}
+
+.mark-2 {
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.introduction-text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #C1C1C1;
+    padding-top: 7px;
+}
+
+.introduction-2 {
     display: flex;
+    margin-top: 50px;
+}
+
+.introduction-2 a {
+    margin-right: 16px;
+}
+
+.hero {
+    width: 60%;
+    height: auto;
+}
+
+/* works */
+
+.works {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.works h2 {
+    padding: 120px 80px;
+}
+
+.works h2 img {
+    padding: 120px 80px;
 }
