@@ -140,10 +140,6 @@ body {
     padding: 7px 0;
 }
 
-.skill {
-    white-space: nowrap;
-}
-
 .mark-1 {
     z-index: 5;
     position: relative;
@@ -165,6 +161,10 @@ body {
     padding-top: 7px;
 }
 
+.introduction-text2 span {
+    white-space: nowrap;
+}
+
 .introduction-2 {
     display: flex;
     margin-top: 50px;
@@ -176,22 +176,80 @@ body {
 
 .hero {
     width: 60%;
-    height: auto;
 }
 
 /* works */
 
-.works {
+.work-introduction1 {
     max-width: 1920px;
+    height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-.works h2 {
-    padding: 120px 80px;
+.work-introduction1 h2 {
+    padding: 120px 0 80px 0;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    display: flex;
+    align-items: center;
+    color: #3B3B3B;
 }
 
-.works h2 img {
-    padding: 120px 80px;
+.work-introduction1 img {
+    margin: 0 24px 0 16px;
+    display: block;
+}
+
+.work-introduction2 {
+    max-width: 1920px;
+    height: auto;
+}
+
+.work-1 {
+    background-image: url("../src/assets/images/homepage-work1-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-1-1 {
+    width: 50%;
+    height: auto;
+    margin: 5% 0 0 10%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.work-1-1 img {
+    display: block;
+}
+
+.work-1-2 {
+    width: 526px;
+    height: 400px;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-1-2 div {
+    width: 100%;
+    height: auto;
+    padding: 80px 40px 56px 40px;
+    border-radius: 24px;
+    background-color: #FFFFFF1A;
+}
+
+.work-2 img {
+    width: 100%;
+    /*background-image: url("../src/assets/images/homepage-work2-lg.png")*/
+}
+
+.work-3 {
+    background-image: url("../src/assets/images/homepage-work3-bg.png")
 }
